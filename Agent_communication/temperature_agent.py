@@ -81,7 +81,7 @@ CALLMEBOT_API_KEY = 'Put_Your_CallMeBot_API_Key_Here' #here you have to enter yo
 def send_whatsapp_notification(phone_number, message):
     try:
         # Construct the URL with phone number and message
-       url = f"https://api.callmebot.com/whatsapp.php?phone={ENTER_REGISTERED_MOBILE_NUMBER_GIVEN_BY_BOT}&text={message}&apikey={CALLMEBOT_API_KEY}" 
+        url = f"https://api.callmebot.com/whatsapp.php?phone={ENTER_REGISTERED_MOBILE_NUMBER_GIVEN_BY_BOT}&text={message}&apikey={CALLMEBOT_API_KEY}" 
 
         # Send a GET request to the CallMeBot API
         response = requests.get(url)
