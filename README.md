@@ -56,5 +56,6 @@ To experience the web-based functionality:
 ## Special Consideration
 For a more detailed explanation and to experience the project in action, please watch our tutorial on YouTube at (https://youtu.be/coYyrwEFJ-U?feature=shared).
 
-If you have any questions or encounter issues during the setup process, don't hesitate to reach out. Happy traveling!
+If you have any questions or encounter issues during the setup process, don't hesitate to reach out us at [ harsh.trivedi19103@gmail.com ]. 
+Happy traveling!
 
