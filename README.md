@@ -21,8 +21,8 @@ This repository includes two main folders inside "Agent_communication" directory
 1. **Console-based Microagent Communication (Microagents):**
    - Demonstrates microagent communication through a console-based interface.
 
-2. **Web-based Implementation (Flask Framework):**
-   - Showcases the web-based implementation of the TravelWeather project using the Flask framework.
+2. **Web-based Implementation :**
+   - Showcases the web-based implementation of the TempTrek-Travel-Advisor project using the Flask framework.
 
 ## Setup
 To run this project, you'll need to install the following libraries:
