@@ -35,12 +35,12 @@ num_cities = 1
 import requests
 
 # Define the CallMeBot WhatsApp API key --  "" I allow callmebot to send me messages "" send this Whatsapp message at +34644718199
-CALLMEBOT_API_KEY = 'Put_Your_CallMeBot_API_Key_Here' 
+CALLMEBOT_API_KEY = 'Paste_Your_CallMeBot_API_Key_Here' 
 
 def send_whatsapp_notification(phone_number, message):
     try:
         # Construct the URL with phone number and message
-        url = f"Put_Your_CallMeBot_API_URL_Here"
+        url = f"https://api.callmebot.com/whatsapp.php?phone={ENTER_REGISTERED_MOBILE_NUMBER_GIVEN_BY_BOT}&text={message}&apikey={CALLMEBOT_API_KEY}"
 
         # Send a GET request to the CallMeBot API
         response = requests.get(url)
@@ -155,7 +155,7 @@ def send_user_input_to_temperature_agent(city, min_temp, max_temp):
     # notify_user(user_input)
 
 
-    url = f'Put_Your_OpenWeather_API_URL_Here'  #Generate and paste your OpenWeather API URL here
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={selected_location}&appid={ENTER_API_KEY_HERE}'
     try:
         # Send a GET request to the API
         response = requests.get(url)
