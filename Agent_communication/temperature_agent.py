@@ -34,7 +34,7 @@ for _ in range(num_cities):
     desired_min_temp = int(input("Enter your desired minimum temperature: "))
     desired_max_temp = int(input("Enter your desired maximum temperature: "))
 
-    url = f'WEATHER API_URL' 
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={selected_location}&appid={ENTER_API_KEY_HERE}' 
     try:
         # Send a GET request to the API
         response = requests.get(url)
@@ -81,7 +81,7 @@ CALLMEBOT_API_KEY = 'Put_Your_CallMeBot_API_Key_Here' #here you have to enter yo
 def send_whatsapp_notification(phone_number, message):
     try:
         # Construct the URL with phone number and message
-        url = f"Paste_API_URL_Here" #Here you have to enter your api url
+       url = f"https://api.callmebot.com/whatsapp.php?phone={ENTER_REGISTERED_MOBILE_NUMBER_GIVEN_BY_BOT}&text={message}&apikey={CALLMEBOT_API_KEY}" 
 
         # Send a GET request to the CallMeBot API
         response = requests.get(url)
