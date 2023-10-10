@@ -10,13 +10,10 @@ To run this project on your machine, follow these steps:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/TravelWeather.git
+   git clone https://github.com/Harsh-Trivedi03/TempTrek-Travel-Advisor.git
+   
    ```
 
-2. Navigate to the project directory:
-   ```bash
-   cd TravelWeather
-   ```
 
 ## Project Structure
 This repository includes two main folders inside "Agent_communication" directory:
