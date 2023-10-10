@@ -54,7 +54,7 @@ To experience the web-based functionality:
 3. You will be redirected to a functioning web page, where you can explore the project's web-based features.
 
 ## Special Consideration
-For a more detailed explanation and to experience the project in action, please watch our tutorial on YouTube at (https://youtu.be/coYyrwEFJ-U?feature=shared).
+For a more detailed explanation and to experience the project in action, please watch our tutorial on YouTube at [ https://youtu.be/coYyrwEFJ-U?feature=shared ].
 
 If you have any questions or encounter issues during the setup process, don't hesitate to reach out us at [ harsh.trivedi19103@gmail.com ]. 
 Happy traveling!
