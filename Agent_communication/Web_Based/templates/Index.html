@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Monitoring</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Monitoring System</h1>
+        <form action="/" method="post">
+            <label for="num_cities">How many cities do you want to track?</label>
+            <input type="number" id="num_cities" name="num_cities" required><br><br>
+
+            <div id="city_input">
+                <!-- City input fields will be generated dynamically using JavaScript -->
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('num_cities').addEventListener('change', function() {
+            const numCities = parseInt(this.value);
+            const cityInputContainer = document.getElementById('city_input');
+
+            // Clear existing city inputs
+            cityInputContainer.innerHTML = '';
+
+            // Generate input fields for each city
+            for (let i = 1; i <= numCities; i++) {
+                const cityNameLabel = document.createElement('label');
+                cityNameLabel.innerText = `City Name ${i}`;
+                const cityNameInput = document.createElement('input');
+                cityNameInput.type = 'text';
+                cityNameInput.name = `city_name_${i}`;
+                cityNameInput.required = true;
+
+                const minTempLabel = document.createElement('label');
+                minTempLabel.innerText = `Desired Min Temp ${i} (°C)`;
+                const minTempInput = document.createElement('input');
+                minTempInput.type = 'number';
+                minTempInput.name = `min_temp_${i}`;
+                minTempInput.required = true;
+
+                const maxTempLabel = document.createElement('label');
+                maxTempLabel.innerText = `Desired Max Temp ${i} (°C)`;
+                const maxTempInput = document.createElement('input');
+                maxTempInput.type = 'number';
+                maxTempInput.name = `max_temp_${i}`;
+                maxTempInput.required = true;
+
+                cityInputContainer.appendChild(cityNameLabel);
+                cityInputContainer.appendChild(cityNameInput);
+                cityInputContainer.appendChild(minTempLabel);
+                cityInputContainer.appendChild(minTempInput);
+                cityInputContainer.appendChild(maxTempLabel);
+                cityInputContainer.appendChild(maxTempInput);
+                cityInputContainer.appendChild(document.createElement('br'));
+                cityInputContainer.appendChild(document.createElement('br'));
+            }
+        });
+    </script>
+</body>
+</html>
+
