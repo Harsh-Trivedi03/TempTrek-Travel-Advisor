@@ -1,3 +1,4 @@
+Note" Changes made after the deadline are only made to the readme file
 # TempTrek-Travel-Advisor
 
 
