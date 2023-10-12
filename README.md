@@ -17,7 +17,7 @@ To run this project on your machine, follow these steps:
 
 
 ## Project Structure
-This repository includes two main folders inside "Agent_communication" directory:
+This repository includes two types inside "Agent_communication" directory:
 
 1. **Console-based Microagent Communication (Microagents):**
    - Demonstrates microagent communication through a console-based interface.
