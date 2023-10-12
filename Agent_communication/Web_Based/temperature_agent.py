@@ -155,7 +155,7 @@ def send_user_input_to_temperature_agent(city, min_temp, max_temp):
     # notify_user(user_input)
 
 
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={selected_location}&appid={ENTER_API_KEY_HERE}'
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={ENTER_API_KEY_HERE}'
     try:
         # Send a GET request to the API
         response = requests.get(url)
