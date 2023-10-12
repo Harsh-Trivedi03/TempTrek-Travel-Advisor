@@ -46,6 +46,7 @@ To see microagent communication in action:
 2. Inside this folder, open and run the "agent_bob.py" and "temperature_agent.py" files.
 3. Provide the required input in the "temperature_agent.py" file console.
 4. You will observe an alert message in the "bob_agent.py" file, demonstrating the communication between microagents.
+![Microagent Communication Photo 1](https://pbs.twimg.com/media/F8OD4usaoAAPmwK?format=png&name=small) ![Microagent Communication Photo 2](https://pbs.twimg.com/media/F8ODoWhaQAAXj4w?format=png&name=900x900)
 
 ## Instructions for Web-Based Implementation
 To experience the web-based functionality:
