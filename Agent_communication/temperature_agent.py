@@ -76,7 +76,7 @@ for _ in range(num_cities):
 import requests
 
 # Define the CallMeBot WhatsApp API key......" I allow callmebot to send me messages " send this message at +34644718199
-CALLMEBOT_API_KEY = 'we23ruy' #here you have to enter your api key code
+CALLMEBOT_API_KEY = 'Telegram_username' #here you have to enter your api key code
 
 def send_whatsapp_notification(phone_number, message):
     try:
