@@ -27,7 +27,7 @@ def index():
             send_user_input_to_temperature_agent(data['city'], data['min_temp'], data['max_temp'])
 
         # Redirect to a confirmation page or display a message
-        return "Updates Sent to WhatsApp.."
+        return "Updates Sent to Telegram..."
 
     return render_template('index.html')
 
