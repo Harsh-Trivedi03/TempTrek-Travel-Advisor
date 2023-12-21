@@ -56,10 +56,7 @@ To experience the web-based functionality:
 3. You will be redirected to a functioning web page, where you can explore the project's web-based features.
 ![Microagent Communication Photo 1](https://pbs.twimg.com/media/F8OSayeXwAAUjRr?format=jpg&name=large)
 
-## Special Consideration
-For a more detailed explanation and to experience the project in action, please watch our tutorial on YouTube [ https://www.youtube.com/watch?v=coYyrwEFJ-U&ab_channel=FeelTheCode ].
 
-[![YouTube Tutorial Thumbnail](https://img.youtube.com/vi/coYyrwEFJ-U/0.jpg)](https://www.youtube.com/watch?v=coYyrwEFJ-U)
 
 If you have any questions or encounter issues during the setup process, don't hesitate to reach out to us at [harsh.trivedi19103@gmail.com]. 
 Happy traveling!
